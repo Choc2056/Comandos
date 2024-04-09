@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comando Cut en Linux</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ccc;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Comando <code>cut</code> en Linux</h1>
+    <p>El comando <code>cut</code> se utiliza para extraer secciones de cada línea de un archivo o de entrada estándar.</p>
+    
+    <h2>Sintaxis básica:</h2>
+    <pre>
+        <code>cut [opciones] [archivo]</code>
+    </pre>
+    
+    <h2>Ejemplos de uso:</h2>
+    <ul>
+        <li>
+            <p><strong>Extraer la primera columna de un archivo CSV:</strong></p>
+            <pre>
+                <code>cut -d',' -f1 archivo.csv</code>
+            </pre>
+            <p>Este comando extraerá la primera columna de un archivo CSV utilizando la coma como delimitador.</p>
+        </li>
+        
+        <li>
+            <p><strong>Extraer un rango de caracteres de cada línea de un archivo de texto:</strong></p>
+            <pre>
+                <code>cut -c1-5 archivo.txt</code>
+            </pre>
+            <p>Este comando extraerá los primeros 5 caracteres de cada línea del archivo de texto.</p>
+        </li>
+        
+        <li>
+            <p><strong>Extraer campos basados en un delimitador personalizado:</strong></p>
+            <pre>
+                <code>cut -d':' -f2,3 archivo.txt</code>
+            </pre>
+            <p>Este comando extraerá el segundo y tercer campo de cada línea del archivo de texto utilizando dos puntos como delimitador.</p>
+        </li>
+    </ul>
+</body>
+</html>
