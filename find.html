@@ -58,5 +58,24 @@
             <p>Este comando extraerá el segundo y tercer campo de cada línea del archivo de texto utilizando dos puntos como delimitador.</p>
         </li>
     </ul>
+
+    <h2>Ejemplos de uso</h2> <!--Creado por Héctor Aparicio-->
+        <ul>
+            <li>
+                <p><strong>Extraer una columna específica:</strong></p>
+                <p>Nombre,Apellido,Edad,Ciudad <br>
+                    Juan,Pérez,25,Barcelona <br>
+                    María,García,30,Madrid <br>
+                    Pedro,Rodríguez,28,Valencia</p>
+                <pre>
+                    <code>cut -d ',' -f 2 datos.txt</code>
+                </pre>
+                <p>Esto devolverá: <br><br>
+                    Apellido <br>
+                    Pérez <br>
+                    García <br>
+                    Rodríguez</p>
+            </li>
+        </ul>
 </body>
 </html>
