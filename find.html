@@ -58,12 +58,30 @@
             <p>Este comando extraerá el segundo y tercer campo de cada línea del archivo de texto utilizando dos puntos como delimitador.</p>
         </li>
     </ul>
-    <li><!--Sergio Oyola-->
+    <h2>Ejempos:</h2><!--Creado por Sergio Oyola Márquez-->
         <p><strong>Cortar y mostrar la segunda columna de un archivo CSV:</strong></p>
         <pre>
             <code>cut -d',' -f2 archivo.csv</code>
         </pre>
         <p>Este comando cortará y mostrará la segunda columna de un archivo CSV, utilizando la coma como delimitador.</p>
-    </li>
+
+    <h2>Ejemplos de uso</h2> <!--Creado por Héctor Aparicio-->
+        <ul>
+            <li>
+                <p><strong>Extraer una columna específica:</strong></p>
+                <p>Nombre,Apellido,Edad,Ciudad <br>
+                    Juan,Pérez,25,Barcelona <br>
+                    María,García,30,Madrid <br>
+                    Pedro,Rodríguez,28,Valencia</p>
+                <pre>
+                    <code>cut -d ',' -f 2 datos.txt</code>
+                </pre>
+                <p>Esto devolverá: <br><br>
+                    Apellido <br>
+                    Pérez <br>
+                    García <br>
+                    Rodríguez</p>
+            </li>
+  </ul>
 </body>
 </html>
