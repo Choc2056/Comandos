@@ -62,5 +62,24 @@
     <ul>
         <li><code> find /home/usuario -name "*.txt" </code>Este comando buscará en el directorio /home/usuario y todos sus subdirectorios cualquier archivo cuyo nombre termine con .txt, y mostrará los resultados por la salida estándar.</li>
     </ul>
+
+    <h2>Ejemplos de uso</h2> <!--Creado por Héctor Aparicio-->
+        <ul>
+            <li>
+                <p><strong>Extraer una columna específica:</strong></p>
+                <p>Nombre,Apellido,Edad,Ciudad <br>
+                    Juan,Pérez,25,Barcelona <br>
+                    María,García,30,Madrid <br>
+                    Pedro,Rodríguez,28,Valencia</p>
+                <pre>
+                    <code>cut -d ',' -f 2 datos.txt</code>
+                </pre>
+                <p>Esto devolverá: <br><br>
+                    Apellido <br>
+                    Pérez <br>
+                    García <br>
+                    Rodríguez</p>
+            </li>
+  </ul>
 </body>
 </html>
