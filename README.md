@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
 </head>
 <body>
+    <h2>Repositorio con el resumen y breve explicación del comando CUT de linux
     <h1>Repositorios:</h1>
     <ul>
         <li>Sergio: <a href="https://github.com/Neke33/manual">https://github.com/Neke33/manual</a></li>
